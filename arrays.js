@@ -12,3 +12,8 @@ console.log(fruits[3]);
 fruits[1] = "Grapes";
 
 console.log(fruits);
+
+fruits.push("Kiwi");
+
+console.log(fruits);
+// "Put Kiwi at the end of my fruits array."
