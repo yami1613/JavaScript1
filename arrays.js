@@ -62,3 +62,11 @@ let squares = numbers.map(function(number) {
 });
 
 console.log(squares);
+
+// Filter Practice
+let numbers = [1, 2, 3, 4, 5, 6];
+// filter() → selects/keeps items that pass a condition
+let evenNumbers = numbers.filter(function(number) {
+    return number % 2 === 0;
+});
+console.log(evenNumbers);
