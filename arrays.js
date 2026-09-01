@@ -13,12 +13,16 @@ fruits[1] = "Grapes";
 
 console.log(fruits);
 
-fruits.push("Kiwi");
-
-console.log(fruits);
 // "Put Kiwi at the end of my fruits array."
-
-fruits.pop();
-
+fruits.push("Kiwi");
 console.log(fruits);
+
 // It removes the last item
+fruits.pop();
+console.log(fruits);
+
+
+// Loop through array
+for (let i = 0; i < fruits.length; i++) {
+    console.log(fruits[i]);
+}
