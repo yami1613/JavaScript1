@@ -42,3 +42,13 @@ console.log(fruits.includes("Grapes"));
 // Find the position of an element
 console.log(fruits.indexOf("Banana"));
 console.log(fruits.indexOf("Grapes"));
+
+// Search for an element and make a decision
+
+let index = fruits.indexOf("Banana");
+
+if (index !== -1) {
+    console.log("Banana is found");
+} else {
+    console.log("Banana is not found");
+}
