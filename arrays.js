@@ -26,3 +26,13 @@ console.log(fruits);
 for (let i = 0; i < fruits.length; i++) {
     console.log(fruits[i]);
 }
+
+// Adds something at the beginning
+  fruits.unshift("Mango"); 
+console.log(fruits);
+
+// Removes something from the beginning
+fruits.shift();
+console.log(fruits);
+
+
