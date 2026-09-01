@@ -17,3 +17,8 @@ fruits.push("Kiwi");
 
 console.log(fruits);
 // "Put Kiwi at the end of my fruits array."
+
+fruits.pop();
+
+console.log(fruits);
+// It removes the last item
