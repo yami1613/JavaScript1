@@ -39,4 +39,6 @@ console.log(fruits);
 console.log(fruits.includes("Banana"));
 console.log(fruits.includes("Grapes"));
 
-
+// Find the position of an element
+console.log(fruits.indexOf("Banana"));
+console.log(fruits.indexOf("Grapes"));
