@@ -35,4 +35,8 @@ console.log(fruits);
 fruits.shift();
 console.log(fruits);
 
+// Check if an element exists in the array
+console.log(fruits.includes("Banana"));
+console.log(fruits.includes("Grapes"));
+
 
